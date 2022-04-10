@@ -10,6 +10,8 @@
 
 
 <!-- PROJECT LOGO -->
+    ![test](https://github.com/victorcappa/Live-Album/blob/main/images/Live_Album_Simple_demo.webp)
+
 <br />
 <div align="center">
   <a href="https://github.com/victorcappa/Live-Album">
@@ -23,7 +25,6 @@
     <br />
     
     
-    ![live album](https://user-images.githubusercontent.com/40408965/162595995-363c1a2c-1b50-4def-b270-97904c4e5899.gif)
 
  Demo video can be seem here - https://youtube.com/shorts/ye-9-CjOq9c?feature=share
  
