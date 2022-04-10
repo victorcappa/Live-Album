@@ -58,7 +58,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p align="center">
+<p align="left">
   <img src="https://user-images.githubusercontent.com/40408965/162596419-2291f563-9caa-4a7d-b271-d2e2728481fb.gif" alt="animated" />
 </p>
 
