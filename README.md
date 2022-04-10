@@ -19,10 +19,13 @@
     This is a simple AR image tracking video player, based on AR Foundation, ARKit, utilizing Unity and C#.
     <br />
 
- Demo video can be seem here - https://rb.gy/puka1z
-
   </p>
+ 
+ 
+ <a href="https://rb.gy/puka1z/" target="_blank">Demo video can be seem here<a/>
+ 
 </div>
+
 
 
 <!-- TABLE OF CONTENTS -->
