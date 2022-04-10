@@ -16,20 +16,23 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Live Album</h3>
 
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
+    
+    
+    ![live album](https://user-images.githubusercontent.com/40408965/162595995-363c1a2c-1b50-4def-b270-97904c4e5899.gif)
+
+ Demo video can be seem here - https://youtube.com/shorts/ye-9-CjOq9c?feature=share
+ 
+    
     <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
+    
     <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
   </p>
+  
 </div>
 
 
