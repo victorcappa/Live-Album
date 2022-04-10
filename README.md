@@ -89,7 +89,9 @@ A photograf or any other image;
 A video source (can be a link).
 
 ### Installation
-<div align="center">
+
+<div align="left">
+ 
 1 - Open your project and inside the package manager, install the AR Foundation package:<br>
 
 
@@ -125,10 +127,18 @@ A video source (can be a link).
  <br> 8 - Add the Ar Button Script to the Sphere object and set VideoPlayer as the Vp element;
  
  <br> 9 - Create a canvas with a a button. Set ARSession.Reset to it (so you can restart the tracking session)
+
+ <br> 10 - Create a XRReferenceImageLibrary, referencing it to the image to be tracked. Add it as the Serialized Library, in the AR Tracked Image Manager (AR Session Origin). 
+ 
+<img width="299" alt="XRReferenceImageLibrary" src="https://user-images.githubusercontent.com/40408965/162617118-98be02a4-256f-45ed-a0b6-6e2211b3ba28.png">
  
  </div>
  
- <h3>Done!</h3>
+[*Create a XRReferenceImageLibrary](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/arsubsystems/image-tracking.html)
+
+
+ 
+ <br><h3>Done!</h3>
 
 
 
@@ -186,15 +196,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Victor Cappa - [@twitter_handle](https://twitter.com/twitter_handle) - xrDev@victorcappa.com
+Reach out - [Victor Cappa](xrDev@victorcappa.com)
 
-Project Link: [https://github.com/victorcappa/LiveAlbum](https://github.com/victorcappa/LiveAlbum)
+Share the project - [Live Album](https://github.com/victorcappa/LiveAlbum)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/victor-cappa-50839788/
