@@ -1,10 +1,5 @@
 <div id="top"></div>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -28,9 +23,7 @@
 
   </p>
 </div>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/40408965/162596419-2291f563-9caa-4a7d-b271-d2e2728481fb.gif" alt="animated" />
-</p>
+
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -63,9 +56,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/40408965/162596419-2291f563-9caa-4a7d-b271-d2e2728481fb.gif" alt="animated" />
+</p>
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -73,14 +67,9 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Unity3d](https://unity.com/)
+* [AR Foundation](https://docs.unity3d.com/Manual/com.unity.xr.arfoundation.html)
+* [AR Kit](https://developer.apple.com/augmented-reality/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -89,32 +78,60 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Download the project and open it with Unity version 2021.2.18f or latest. 
+Below you can see some steps on how to create this project yourself.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Unity version 2021.2.18f or latest;
+AR Foundation package;
+A photograf or any other image;
+A video source (can be a link).
 
 ### Installation
+<div align="center">
+1 - Open your project and inside the package manager, install the AR Foundation package:<br>
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+
+ 
+<br><img style="padding: 10px" width="800" alt="install AR Foundation" src="https://user-images.githubusercontent.com/40408965/162599285-fe5b0490-256c-4626-8f54-9a9a1868b926.png"><br>
+
+
+
+ 2 - On Player Settings, check the plug-in providers (ARKit for IOS or ARCore for Android)<br>
+
+ <img width="800" alt="Plug-in Providers ARKit" src="https://user-images.githubusercontent.com/40408965/162599450-526cddc2-cb64-411f-b85e-04018fab7a9f.png">
+
+
+
+<br> 3 - Setup the scene for AR:<br>
+
+
+<img width="300" alt="Captura de Tela 2022-04-10 às 00 17 20" src="https://user-images.githubusercontent.com/40408965/162599897-89a9eeee-46b9-4294-bab0-7d258f780f42.png">
+
+<img width="800" alt="Captura de Tela 2022-04-10 às 00 17 30" src="https://user-images.githubusercontent.com/40408965/162599901-5d1b8c8e-a3a2-40d4-b59e-ed3ea85eb4c4.png">
+ 
+ 
+ <br> 4 - Create a ParentPrefab and inside it, a plane and a VideoPlayer object with a Video Player component;
+ 
+ <br> 5 - Use the image to be tracked as the plane's material;
+ 
+ <br> 6 - Create a 3D button inside the ParentPrefab, containing a Sphere with glass material and two text mesh pro elements for the play/pause symbols;
+ 
+ <img width="600" alt="Captura de Tela 2022-04-10 às 00 36 50" src="https://user-images.githubusercontent.com/40408965/162600401-36ced730-435d-41dd-9966-2a9930e89466.png">
+ 
+ <br> 7 - Create the animations for the Play/Pause functions and add the VideoAnimControl script to the ParentPrefab;
+ 
+ <br> 8 - Add the Ar Button Script to the Sphere object and set VideoPlayer as the Vp element;
+ 
+ <br> 9 - Create a canvas with a a button. Set ARSession.Reset to it (so you can restart the tracking session)
+ 
+ </div>
+ 
+ <h3>Done!</h3>
+
+
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -123,9 +140,7 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+To iterate the idea, you can create a multiple prefab / multiple tacked images version. Soon I will update the project with the possibility for the user to upload the media (images to be tracked and videos)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -134,15 +149,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+- [x] Play/Pause Button
+- [ ] Multiple images and videos
+- [ ] User friendly
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- CONTRIBUTING -->
@@ -175,37 +186,16 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Victor Cappa - [@twitter_handle](https://twitter.com/twitter_handle) - xrDev@victorcappa.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
+Project Link: [https://github.com/victorcappa/LiveAlbum](https://github.com/victorcappa/LiveAlbum)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+
