@@ -10,7 +10,7 @@
 
 
 <!-- PROJECT LOGO -->
-    ![test](https://github.com/victorcappa/Live-Album/blob/main/images/Live_Album_Simple_demo.webp)
+ 
 
 <br />
 <div align="center">
@@ -23,20 +23,14 @@
   <p align="center">
     project_description
     <br />
-    
-    
 
- Demo video can be seem here - https://youtube.com/shorts/ye-9-CjOq9c?feature=share
- 
-    
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+ Demo video can be seem here - https://rb.gy/puka1z
+
   </p>
-  
 </div>
-
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/40408965/162596419-2291f563-9caa-4a7d-b271-d2e2728481fb.gif" alt="animated" />
+</p>
 
 <!-- TABLE OF CONTENTS -->
 <details>
