@@ -16,7 +16,7 @@
 <h3 align="center">Live Album</h3>
 
   <p align="center">
-    project_description
+    This is a simple AR image tracking video player, based on AR Foundation, ARKit, utilizing Unity and C#.
     <br />
 
  Demo video can be seem here - https://rb.gy/puka1z
@@ -197,5 +197,5 @@ Project Link: [https://github.com/victorcappa/LiveAlbum](https://github.com/vict
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://www.linkedin.com/in/victor-cappa-50839788/
 
