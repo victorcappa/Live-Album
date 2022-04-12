@@ -87,7 +87,7 @@ Below you can see some steps on how to create this project yourself.
 
 Unity version 2021.2.18f or latest;
 AR Foundation package;
-A photograf or any other image;
+A photograph or any other image;
 A video source (can be a link).
 
 ### Installation
