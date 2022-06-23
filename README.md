@@ -198,7 +198,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Reach out - [Victor Cappa](xrDev@victorcappa.com)
+Reach out - <a href = "mailto: cappacurta@gmail.com.com">Victor Cappa</a>
 
 Share the project - [Live Album](https://github.com/victorcappa/LiveAlbum)
 
